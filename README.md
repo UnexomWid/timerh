@@ -36,17 +36,17 @@ Execution Time (formatted): 1 millisecond, 14 microseconds, 695 nanoseconds
 
 | Function                        | Description                                                            |
 |---------------------------------|------------------------------------------------------------------------|
-| time_now()                      | Gets the current time, as a CHRONOMETER object.                        |
-| get_exec_time_ns(CHRONOMETER)   | Gets the execution time in nanoseconds.                                |
-| get_exec_time_mis(CHRONOMETER)  | Gets the execution time in microseconds.                               |
-| get_exec_time_ms(CHRONOMETER)   | Gets the execution time in milliseconds.                               |
-| get_exec_time_s(CHRONOMETER)    | Gets the execution time in seconds.                                    |
-| get_exec_time_m(CHRONOMETER)    | Gets the execution time in minutes.                                    |
-| get_exec_time_h(CHRONOMETER)    | Gets the execution time in hours.                                      |
+| time_now()                      | Gets the current time, as a CHRONOMETER object                         |
+| get_exec_time_ns(CHRONOMETER)   | Gets the execution time in nanoseconds                                 |
+| get_exec_time_mis(CHRONOMETER)  | Gets the execution time in microseconds                                |
+| get_exec_time_ms(CHRONOMETER)   | Gets the execution time in milliseconds                                |
+| get_exec_time_s(CHRONOMETER)    | Gets the execution time in seconds                                     |
+| get_exec_time_m(CHRONOMETER)    | Gets the execution time in minutes                                     |
+| get_exec_time_h(CHRONOMETER)    | Gets the execution time in hours                                       |
 | format_time_ns(ULL)             | Formats a number representing nanoseconds as a string                  |
 | format_time_mis(ULL)            | Formats a number representing microseconds as a string                 |
 | format_time_ms(ULL)             | Formats a number representing milliseconds as a string                 |
 | getf_exec_time_ns(CHRONOMETER)  | Gets the formatted execution time with the precision of a nanosecond   |
-| getf_exec_time_mis(CHRONOMETER) | Gets the formatted execution time with the precision of a microsecond. |
-| getf_exec_time_ms(CHRONOMETER)  | Gets the formatted execution time with the precision of a millisecond. |
+| getf_exec_time_mis(CHRONOMETER) | Gets the formatted execution time with the precision of a microsecond  |
+| getf_exec_time_ms(CHRONOMETER)  | Gets the formatted execution time with the precision of a millisecond  |
 
