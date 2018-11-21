@@ -1,8 +1,6 @@
 # About
 TimerH is a compact C++ library used for timing code and formatting time. It supports precision up to a nanosecond.
 
-EXCS Interpreter is a cross-platform interpreter for Exom CrypticScript written in C++.
-
 # License
 TimerH was created by [UnexomWid](http://unexomwid.me).
 It is licensed under the [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
