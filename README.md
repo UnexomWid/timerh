@@ -26,10 +26,10 @@ Execution Time (formatted): 1 millisecond, 14 microseconds, 695 nanoseconds
 
 ## Definitions
 
-| Name        | Value                                 |
-|-------------|---------------------------------------|
-| CHRONOMETER | std::chrono::steady_clock::time_point |
-| ULL         | unsigned long long                    |
+| Name        | Value                                          |
+|-------------|------------------------------------------------|
+| CHRONOMETER | std::chrono::high_resolution_clock::time_point |
+| ULL         | unsigned long long                             |
 
 ## Functions
 
