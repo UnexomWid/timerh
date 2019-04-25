@@ -1,6 +1,6 @@
 /*
- * TimerH - A C++ library for timing code and formatting time.
- * Copyright (C) 2018-2019  UnexomWid
+ * TimerH - A C++ for timing.
+ * Copyright (C) 2018  UnexomWid
 
  * timer.cpp - Contains the definition of the library.
 
