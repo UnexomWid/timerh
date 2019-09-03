@@ -1,4 +1,4 @@
-# About
+# About <a href="https://en.wikipedia.org/wiki/C%2B%2B11"><img align="right" src="https://img.shields.io/badge/C%2B%2B-11-00599C?logo=C%2B%2B" alt="C++ 11" /></a>
 TimerH is a compact C++ library used for timing code and formatting time. It supports precision up to a nanosecond.
 
 # License <a href="https://github.com/UnexomWid/timerh/blob/master/LICENSE"><img align="right" src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3" /></a>
