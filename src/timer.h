@@ -16,6 +16,9 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+#ifndef TMP_TIMER_H
+#define TMP_TIMER_H
+
 #include <chrono>
 #include <string>
 
@@ -51,3 +54,5 @@ std::string getf_exec_time_ms(CHRONOMETER start);
 std::string getf_exec_time_mis(CHRONOMETER start);
 // Gets the formatted execution time with the precision of a nanosecond.
 std::string getf_exec_time_ns(CHRONOMETER start);
+
+#endif
