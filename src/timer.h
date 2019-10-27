@@ -16,8 +16,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#ifndef TMP_TIMER_H
-#define TMP_TIMER_H
+#ifndef TIMERH_TIMER_H
+#define TIMERH_TIMER_H
 
 #include <chrono>
 #include <string>
