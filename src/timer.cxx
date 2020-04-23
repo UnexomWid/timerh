@@ -26,34 +26,34 @@ CHRONOMETER time_now() {
 	return std::chrono::high_resolution_clock::now();
 }
 
-ULL get_exec_time_h(CHRONOMETER start) {
+uint64_t get_exec_time_h(CHRONOMETER start) {
 	return std::chrono::duration_cast<std::chrono::hours>(time_now() - start).count();
 }
 
-ULL get_exec_time_m(CHRONOMETER start) {
+uint64_t get_exec_time_m(CHRONOMETER start) {
 	return std::chrono::duration_cast<std::chrono::minutes>(time_now() - start).count();
 }
 
-ULL get_exec_time_s(CHRONOMETER start) {
+uint64_t get_exec_time_s(CHRONOMETER start) {
 	return std::chrono::duration_cast<std::chrono::seconds>(time_now() - start).count();
 }
 
-ULL get_exec_time_ms(CHRONOMETER start) {
+uint64_t get_exec_time_ms(CHRONOMETER start) {
 	return std::chrono::duration_cast<std::chrono::milliseconds>(time_now() - start).count();
 }
 
-ULL get_exec_time_mis(CHRONOMETER start) {
+uint64_t get_exec_time_mis(CHRONOMETER start) {
 	return std::chrono::duration_cast<std::chrono::microseconds>(time_now() - start).count();
 }
 
-ULL get_exec_time_ns(CHRONOMETER start) {
+uint64_t get_exec_time_ns(CHRONOMETER start) {
 	return std::chrono::duration_cast<std::chrono::nanoseconds>(time_now() - start).count();
 }
 
-std::string format_time_ms(ULL milliseconds) {
+std::string format_time_ms(uint64_t milliseconds) {
 	std::string sTime;
 
-	ULL tmp = milliseconds / 86400000; //Days.
+	uint64_t tmp = milliseconds / 86400000; //Days.
 	if (tmp != 0) {
 		if (sTime != "")
 			sTime += ", ";
@@ -113,10 +113,10 @@ std::string format_time_ms(ULL milliseconds) {
 	return sTime;
 }
 
-std::string format_time_mis(ULL microseconds) {
+std::string format_time_mis(uint64_t microseconds) {
 	std::string sTime;
 
-	ULL tmp = microseconds / 86400000000; //Days.
+	uint64_t tmp = microseconds / 86400000000; //Days.
 	if (tmp != 0) {
 		if (sTime != "")
 			sTime += ", ";
@@ -187,10 +187,10 @@ std::string format_time_mis(ULL microseconds) {
 	return sTime;
 }
 
-std::string format_time_ns(ULL nanoseconds) {
+std::string format_time_ns(uint64_t nanoseconds) {
 	std::string sTime;
 
-	ULL tmp = nanoseconds / 86400000000000; //Days.
+	uint64_t tmp = nanoseconds / 86400000000000; //Days.
 	if (tmp != 0) {
 		if (sTime != "")
 			sTime += ", ";
