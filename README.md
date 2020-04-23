@@ -29,7 +29,6 @@ Execution Time (formatted): 1 millisecond, 14 microseconds, 695 nanoseconds
 | Name        | Value                                          |
 |-------------|------------------------------------------------|
 | CHRONOMETER | std::chrono::high_resolution_clock::time_point |
-| ULL         | unsigned long long                             |
 
 ## Functions
 
@@ -43,9 +42,9 @@ Execution Time (formatted): 1 millisecond, 14 microseconds, 695 nanoseconds
 | get_exec_time_s(CHRONOMETER)    | Gets the execution time in seconds                                     |
 | get_exec_time_m(CHRONOMETER)    | Gets the execution time in minutes                                     |
 | get_exec_time_h(CHRONOMETER)    | Gets the execution time in hours                                       |
-| format_time_ns(ULL)             | Formats a number representing nanoseconds as a string                  |
-| format_time_mis(ULL)            | Formats a number representing microseconds as a string                 |
-| format_time_ms(ULL)             | Formats a number representing milliseconds as a string                 |
+| format_time_ns(uint64_t)        | Formats a number representing nanoseconds as a string                  |
+| format_time_mis(uint64_t)       | Formats a number representing microseconds as a string                 |
+| format_time_ms(uint64_t)        | Formats a number representing milliseconds as a string                 |
 | getf_exec_time_ns(CHRONOMETER)  | Gets the formatted execution time with the precision of a nanosecond   |
 | getf_exec_time_mis(CHRONOMETER) | Gets the formatted execution time with the precision of a microsecond  |
 | getf_exec_time_ms(CHRONOMETER)  | Gets the formatted execution time with the precision of a millisecond  |
