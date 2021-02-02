@@ -13,8 +13,8 @@ ch = time_now();
 /*
  Code to time.
 */
-std::cout << "Execution Time: " << get_exec_time_ms(ch) << " ms";
-std::cout << "\nExecution Time (formatted): " << getf_exec_time_ms(ch);
+std::cout << "Execution Time (milliseconds): " << get_exec_time_ms(ch) << " ms";
+std::cout << "\nExecution Time (formatted, nanoseconds): " << getf_exec_time_ns(ch);
 ```
 
 Example of output:
